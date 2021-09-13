@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Berkshire Swash;
+    color: rgb(177, 169, 169);
+}
+
+html, body { 
+margin: 0;
+padding: 0;
+
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li {
+display: inline;
+}
+
+.section-middle {
+    background-image: url(../images/chillis.jpg);
+
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.363);
+    background-image: url("../images/mex.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
